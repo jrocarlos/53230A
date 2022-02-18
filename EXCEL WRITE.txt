@@ -1,6 +1,0 @@
-#------------WRITE EXCEL------------------
-  #2.003  MATH         F = MEM
-  #2.004  MATH         cell = COLUNA & LINHA
-  #2.005  LIB          COM cell_freq = xlApp.Range[cell];
-  #2.006  LIB          cell_freq.Value2 = F;
-  #2.007  MATH         LINHA = LINHA + 1
