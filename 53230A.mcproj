@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5fa94f5d-4007-413b-86b9-a862b756b5a0}</ProjectGuid>
+    <RootNamespace>_53132A</RootNamespace>
+    <AssemblyName>53132A</AssemblyName>
+    <Name>53132A</Name>
+    <Author>CARLOS JÚNIOR</Author>
+    <Company>INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS</Company>
+    <Version>1.2.0</Version>
+    <ProcedureType>CALIBRATION</ProcedureType>
+    <UutType>UNIVERSAL COUNTER</UutType>
+    <PackageDate>2017-10-02 00:00:00</PackageDate>
+    <PublishFileType>pxe</PublishFileType>
+    <Uut1Setting>53132A</Uut1Setting>
+    <Interval>12</Interval>
+    <Copyright>INPE / LIT / MTE</Copyright>
+    <Comments>MEASURE FREQUENCY</Comments>
+    <ExecutionTime>3</ExecutionTime>
+    <UutControlType>COUNTER</UutControlType>
+    <PublishFileName>53132AV1.2.0</PublishFileName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FREQ.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="FREQ2.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="FREQ3.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="PER1.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="PER2.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="REF.mc">
+      <MainProcedure>False</MainProcedure>
+    </Compile>
+    <Compile Include="MAIN.mc">
+      <MainProcedure>True</MainProcedure>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SETUPCH1-1.JPG" />
+    <Content Include="SETUPCH1-2.JPG" />
+    <Content Include="SETUPCH2-1.JPG" />
+    <Content Include="SETUPCH2-2.JPG" />
+    <Content Include="SETUPCH3.JPG" />
+    <Content Include="SETUPREF.JPG" />
+  </ItemGroup>
+</Project>
