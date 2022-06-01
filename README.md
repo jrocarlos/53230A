@@ -1,5 +1,5 @@
 # 53230A
-Procedure to automate Keysight/ 53230A frequency counter calibration with Met / Cal Fluke software calibration.
+Procedure to automate Keysight/Agilent 53230A frequency counter calibration with Met / Cal Fluke software calibration.
 
 To use this calibration software, Fluke Corpotarion's Metcal Calibration Software is required.
 
